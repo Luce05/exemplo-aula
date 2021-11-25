@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+body{
+    background: url(../img/sneaker-gc03b3ca32_1920.jpg);
+    background-position: center;
+}
+
+form{
+    height: 500px;
+    width: 500px;
+    background: rgba(112, 112, 112, 0.459);
+    color: white;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+}
+
+form label{
+    font-size: 25px;
+}
+
+form input{
+    width: 70%;
+    height: 40px;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+
+form textarea{
+    border-radius: 5px;
+}
+
+form button{
+    height: 40px;
+    width: 30%;
+    background: white;
+    border: none; /* remover borda */
+    font-size: 20px;
+    font-weight: bold; /* expessura da fonte */
+    border-radius: 5px;
+    margin: 10px;
+}
+
+form button:hover{
+    background: rgb(202, 200, 200);
+    
+}
+
+
+
+
+
